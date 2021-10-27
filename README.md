@@ -90,13 +90,13 @@ sudo make install
 # Running eSim and Ngspice
 
 ## eSim Schematic of inverter example
-![image](https://user-images.githubusercontent.com/58599984/137801190-d231140f-d7cc-4d09-bf5c-7ea701a569e0.png)
+
 ## Running Ngspice
 ```
 cd /avsdpll_3v3/prelayout$
 ngspice inv.cir
 ```
-![image](https://user-images.githubusercontent.com/58599984/137800719-4022e45d-580d-4491-8d1c-2bd0842b61f3.png)
+
 ## Output Waveforms
 ![image](https://user-images.githubusercontent.com/58599984/137800823-dfd01f99-bffb-4a99-9d9d-e8d466ae1ba2.png)
 
@@ -105,34 +105,36 @@ ngspice inv.cir
 ![image](https://user-images.githubusercontent.com/58599984/137802291-905fe5c0-c849-476d-b887-3892ba66a1f9.png)
 ![image](https://user-images.githubusercontent.com/58599984/137803982-d01ec0cc-3009-453c-84b0-a5d5759f27a4.png)
 <p align="center">
-  <img src="/Images/s1.png">
+  <img src="/Images/s1.PNG">
 </p>
 
 ## Charge Pump with Low Pass Filter
 ![image](https://user-images.githubusercontent.com/58599984/137802034-14a9f0f7-fcc7-4cfe-ad53-17594d4c8283.png)
 <p align="center">
-  <img src="/Images/cp-wlp.png">
+  <img src="/Images/cp-wlp.PNG">
 </p>
 
 
 ## VCO
 ![image](https://user-images.githubusercontent.com/58599984/137802397-405da180-9bdd-439b-ac85-f7fb59a12b76.png)
 <p align="center">
-  <img src="/Images/vco.png">
+  <img src="/Images/vco.PNG">
 </p>
 <p align="center">
-  <img src="/Images/vco-0.4.png">
+  <img src="/Images/vco-0.4.PNG">
 </p>
+
+
 ## freq_div
 ![image](https://user-images.githubusercontent.com/58599984/137803268-58e658e0-c078-486b-b16b-d5c16d28d823.png)
 <p align="center">
-  <img src="/Images/freq-div.png">
+  <img src="/Images/freq-div.PNG">
 </p>
 
 
 ## PLL Prelayout
 <p align="center">
-  <img src="/Images/pll.png">
+  <img src="/Images/pll.PNG">
 </p>
 
 # Physical Design
@@ -146,33 +148,33 @@ magic -T SCN6M_SUBM.10.tech
 ## Layout of PFD
 ![image](https://user-images.githubusercontent.com/58599984/137805430-9c634f42-baca-4add-b448-5c845f06b344.png)
 <p align="center">
-  <img src="/Images/pfd-laysim.png">
+  <img src="/Images/pfd-laysim.PNG">
 </p>
 
 
 ## Layout of VCO
 ![image](https://user-images.githubusercontent.com/58599984/137805522-cda4d825-74c4-48ad-82c4-a6ee3a0d463c.png)
 <p align="center">
-  <img src="/Images/vco-laysim.png">
+  <img src="/Images/vco-laysim.PNG">
 </p>
 
 
 ## Layout of FreqDiv8
 ![image](https://user-images.githubusercontent.com/58599984/137805681-dd68d1d5-dd36-471f-b9d9-44bd924e47bc.png)
 <p align="center">
-  <img src="/Images/freq-div8.png">
+  <img src="/Images/freq-div8.PNG">
 </p>
 
 ## Layout of mux21
 ![image](https://user-images.githubusercontent.com/58599984/137805764-7e073d29-ccb9-4744-bd42-84d0683a5eae.png)
 <p align="center">
-  <img src="/Images/freq-div8-laysim.png">
+  <img src="/Images/freq-div8-laysim.PNG">
 </p>
 
 ## Final Layout of PLL
 ![image](https://user-images.githubusercontent.com/58599984/137808002-3792ab3e-71d8-4a63-9fac-dfc1fa886a32.png)
 <p align="center">
-  <img src="/Images/pll-laysim.png">
+  <img src="/Images/pll-laysim.PNG">
 </p>
 
 # Acknowlegment
